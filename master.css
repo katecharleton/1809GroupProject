@@ -1,0 +1,587 @@
+/*Homepage*/
+#homepage, #aboutpage, #productpage, #bakerypage, #gallerypage, #feedbackpage{
+    background-color: #F4DFBA;
+}
+#homepage ul, #aboutpage ul, #productpage ul, #bakerypage ul, #gallerypage ul, #feedbackpage ul{
+    list-style-type: none; /* So that there aren't bullet points on list items*/ 
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 135px;
+    padding-bottom: 25px;
+}
+#homepage li, #aboutpage li, #productpage li, #bakerypage li, #gallerypage li, #feedbackpage li{
+    display: inline-block;
+}
+#homepage a, #aboutpage a, #productpage a, #bakerypage a, #gallerypage a, #feedbackpage a{
+    font-size: 22px;
+    color:#F4DFBA;
+    padding: 70px;
+    text-decoration: none;
+}
+#homepage li a:hover, #aboutpage li a:hover, #productpage li a:hover, #bakerypage li a:hover, #gallerypage li a:hover, #feedbackpage li a:hover{
+    color: #f9efdc;
+}
+#homepage nav, #aboutpage nav, #productpage nav, #bakerypage nav, #gallerypage nav, #feedbackpage nav{
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 35px;
+    display: grid;
+    background-color:#876445;
+}
+#homepage .center, #aboutpage .center, #productpage .center, #bakerypage .center, #gallerypage .center, #feedbackpage .center{
+    margin-right: auto;
+    margin-left: auto;
+}
+#homepage .logo_navbar, #aboutpage .logo_navbar, #productpage .logo_navbar, #bakerypage .logo_navbar, #gallerypage .logo_navbar, #feedbackpage .logo_navbar{
+    position: absolute;
+    margin-top: -10px;
+    width: 200px;
+    margin-left: 50px;
+    padding-bottom: 90px;
+}
+#homepage .firstRectangle, #homepage .thirdRectangle{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 400px;
+    display: grid;
+    background-color: #8E9775;
+}
+#homepage .secondRectangle{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 400px;
+    display: grid;
+    background-color: #8E9775;
+}
+#homepage .firstBox{
+    float: left;
+    margin-top: 50px;
+    margin-left: 282px;
+    width: 34%;
+    padding-top: 750px;
+    display: grid;
+    background-color: #CA965C;
+    margin-bottom: 100px;
+    height: 25px;
+}
+#homepage .secondBox{
+    float: right;
+    margin-top: 50px;
+    margin-right: 282px;
+    width: 34%;
+    padding-top: 750px;
+    display: grid;
+    background-color: #CA965C;
+    height: 25px;
+}
+#homepage .footerMaster, #aboutpage .footerMaster, #bakerypage .footerMaster, #gallerypage .footerMaster, #feedbackpage .footerMaster{
+    margin-bottom: -10px;
+    margin-top: 850px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 250px;
+    /*padding-bottom: -25px;*/
+    display: grid;
+    background-color:#876445;
+}
+#homepage .latteArt{
+    width: 49.95%;
+    float: right;
+    display: block;
+    margin-top: -400px;
+    margin-left: 660px;
+}
+#homepage h1{
+    font-size: 40px;
+    margin-top: -275px;
+    margin-left: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F4DFBA;
+}
+#homepage h2{
+    font-size: 18px;
+    margin-top: -210px;
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #F4DFBA;
+}
+#homepage .coffeeMachine{
+    width: 660px;
+    height: 400px;
+    float: left;
+    display: block;
+    margin-top: -400px;
+    margin-bottom: -26px;
+}
+#homepage h3{
+    font-size: 40px;
+    margin-top: -275px;
+    margin-left: 815px;
+    color: #F4DFBA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#homepage h4{
+    font-size: 18px;
+    margin-top: -210px;
+    margin-left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #F4DFBA;
+}
+#homepage .seatingArea{
+    width: 642px;
+    height: 375px;
+    margin-top: -750px;
+}
+#homepage h5{
+    font-size: 40px;
+    margin-top: -300px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#F4DFBA;
+}
+#homepage h6{
+    font-size: 18px;
+    margin-top: -245px;
+    text-align: center;
+    color: #F4DFBA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+#homepage .drinksOnTable{
+    width: 642px;
+    height: 375px;
+    margin-top: -750px;
+}
+#homepage .bakeryCase{
+    width: 660px;
+    float: right;
+    display: block;
+    margin-top: -400px;
+    margin-left: 660px;
+}
+#homepage .buttonForDrinks, #homepage .buttonForBakery{
+    font-size: 18px;
+    background-color: #8E9775;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #F4DFBA;
+    width: 20%;
+    margin-top: -170px;
+    margin-left: 200px;
+    margin-bottom: 125px;
+    border-radius: 12px;
+    border-top: 1px solid #F4DFBA;
+    border-right: 1px solid #F4DFBA;
+    border-bottom: 1px solid #F4DFBA;
+    border-left: 1px solid #F4DFBA;
+}
+#homepage .buttonForDrinks:hover, #homepage .buttonForMachines:hover, #homepage .buttonForBakery:hover{
+    background-color: #979f80;
+}
+#homepage .buttonForMachines{
+    font-size: 18px;
+    background-color: #8E9775;
+    padding: 12px 10px 10px 10px;
+    text-align: center;
+    color: #F4DFBA;
+    width: 20%;
+    margin-top: -175px;
+    margin-left: 850px;
+    margin-bottom: 125px;
+    border-radius: 12px;
+    border-top: 1px solid #F4DFBA;
+    border-right: 1px solid #F4DFBA;
+    border-bottom: 1px solid #F4DFBA;
+    border-left: 1px solid #F4DFBA;
+}
+#homepage .buttonForFeedback, #homepage .buttonForAboutUs{
+    font-size: 18px;
+    background-color: #CA965C;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    color: #F4DFBA;
+    width: 20%;
+    margin-top: -185px;
+    margin-left: 215px;
+    margin-bottom: 300px;
+    border-radius: 12px; /* To give rounded corners on buttons */
+    border-top: 1px solid #F4DFBA;
+    border-right: 1px solid #F4DFBA;
+    border-bottom: 1px solid #F4DFBA;
+    border-left: 1px solid #F4DFBA;
+}
+#homepage .buttonForAboutUs:hover, #homepage .buttonForFeedback:hover{
+    background-color: #cfa06b;
+}
+#homepage .footerSocials, #productpage .footerSocials, #aboutpage .footerSocials, #bakerypage .footerSocials, #gallerypage .footerSocials, #feedbackpage .footerSocials{
+    list-style-type: none; /* So that there aren't bullet points on list items*/ 
+    margin-left: 135px;
+    margin-right: 62px;
+    padding-top: 10px;
+    margin-top: -200px;
+}
+#homepage .footerText, #productpage .footerText, #aboutpage .footerText, #bakerypage .footerText, #feedbackpage .footerText, #gallerypage .footerText{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -125px;
+    margin-left: -70px;
+    color: #F4DFBA;
+}
+#homepage .footerText:hover, #aboutpage .footerText:hover, #productpage .footerText:hover, #bakerypage .footerText:hover, #gallerypage .footerText:hover, #feedbackpage .footerText:hover{
+    color: #f9efdc;
+}
+#homepage .icons, #aboutpage .icons, #productpage .icons, #bakerypage .icons, #gallerypage .icons, #feedbackpage .icons{
+    width: 20%;
+    margin-left: -186px;
+}
+
+/*Product Page*/
+#productpage h2, #bakerypage h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:#876445;
+}
+#productpage h4, #bakerypage h4{
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #F4DFBA;
+}
+#productpage p{
+    font-size: 15px;
+    text-align: center;
+    color: #F4DFBA;
+    margin-top: -10px;
+}
+#productpage .footerMaster{
+    margin-bottom: -10px;
+    margin-top: 75px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 250px;
+    /*padding-bottom: -25px;*/
+    display: grid;
+    background-color:#876445;
+}
+#productpage .productHolder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 25px;
+}
+#productpage .productHolderMachine{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 25px;
+}
+#productpage .column{
+    width: 300px;
+    height: 425px;
+    border: 5px solid #876445;
+    background: #8E9775;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12px;
+}  
+#productpage .column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+/*About Us Page*/
+#aboutpage .text_container{
+    background-color: #8E9775;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutpage .our_story, #aboutpage .our_values{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 400px;
+    display: grid;
+    background-color: #8E9775;
+}
+#aboutpage .our_story h1{
+    margin-top: -340px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 265px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F4DFBA;
+}
+#aboutpage .our_story p{
+    font-size: 18px;
+    margin-top: -260px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #F4DFBA;
+    margin-bottom: 77px;
+}
+#aboutpage .menu_board{
+    width: 660px;
+    height: 591px;
+    float: right;
+    margin-left: 662px;
+    margin-top: -400px;
+    margin-bottom: -252px;
+}
+#aboutpage .our_values h1{
+    margin-top: -500px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 875px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F4DFBA;
+}
+#aboutpage .our_values p{
+    font-size: 18px;
+    margin-top: -400px;
+    margin-left: 675px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #F4DFBA;
+    margin-bottom: 150px;
+}
+#aboutpage .coffee_with_leaves{
+    width: 660px;
+    height: 600px;
+    margin-top: -400px;
+    margin-bottom: -35px;
+}
+#aboutpage .why_choose_us{
+    float: left;
+    margin-top: 50px;
+    margin-left: 282px;
+    width: 34%;
+    padding-top: 750px;
+    display: grid;
+    background-color: #CA965C;
+    margin-bottom: 100px;
+    height: 25px;
+}
+#aboutpage .why_choose_us h1, #aboutpage .sus h1{
+    margin-top: -300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#F4DFBA;
+    font-weight: bolder;
+    text-align: center;
+}
+#aboutpage .why_choose_us p, #aboutpage .sus p{
+    margin-top: -250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F4DFBA;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+#aboutpage .sus{
+    float: right;
+    margin-top: 50px;
+    margin-right: 282px;
+    width: 34%;
+    padding-top: 750px;
+    display: grid;
+    background-color: #CA965C;
+    height: 25px;
+}
+#aboutpage .croissant_picture{
+    margin-top: -750px;
+    width: 642px;
+    height: 400px;
+}
+#aboutpage .green_plate{
+    margin-top: -750px;
+    width: 642px;
+    height: 400px;
+}
+#aboutpage .footerMaster{
+    margin-bottom: -10px;
+    margin-top: 850px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 250px;
+    /*padding-bottom: -25px;*/
+    display: grid;
+    background-color:#876445;
+}
+/*Bakery Page*/
+#bakerypage .footerMaster{
+      margin-bottom: -10px;
+      margin-top: 75px;
+      margin-left: -10px;
+      width: 105%;
+      padding-top: 250px;
+      /*padding-bottom: -25px;*/
+      display: grid;
+      background-color:#876445;
+}
+#bakerypage .productHolder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    column-gap: 1px;
+    gap: 25px;
+}
+#bakerypage .productHolderLast{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    gap: 25px;
+    padding-top: 20px;
+}
+#bakerypage .productHolderLastGroup{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    gap: 25px;
+    padding-top: 20px;
+}
+#bakerypage .column{
+    width: 300px;
+    height: 425px;
+    border: 5px solid #876445;
+    background: #8E9775;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12px;
+}
+#bakerypage .column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+#bakerypage p{
+    font-size: 15px;
+    text-align: center;
+    color: #F4DFBA;
+    margin-top: 30px;
+}
+/*Gallery Page*/
+#gallerypage .row1ImageHolder, #gallerypage .row2ImageHolder, #gallerypage .row3ImageHolder, #gallerypage .row4ImageHolder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    column-gap: 1px;
+    gap: 25px;
+}
+#gallerypage .column{
+    width: 300px;
+    height: 425px;
+    border: 5px solid #876445;
+    background: #8E9775;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+#gallerypage .column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 425px;
+    object-fit: cover;
+}
+#gallerypage .footerMaster{
+    margin-bottom: -10px;
+    margin-top: 75px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 250px;
+    /*padding-bottom: -25px;*/
+    display: grid;
+    background-color:#876445;
+}
+#gallerypage h1{
+    margin-top: 25px;
+    text-align: center;
+    color: #876445;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Feedback Page*/
+#feedbackpage h1{
+    color:#876445;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#feedbackpage h2{
+    color:#876445;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
+#feedbackpage .form_container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 400px;
+    display: grid;
+    background-color: #8E9775;
+}
+#feedbackpage .form-row1{
+    margin-top: -300px;
+    margin-left: 600px;
+}
+#feedbackpage .form_header{
+    text-align: center;
+    margin-top: -400px;
+    color: #F4DFBA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#feedbackpage .form-row1{
+    margin-left: 400px;
+    color: #F4DFBA;
+}
+#feedbackpage .form-row2{
+    margin-top: 15px;
+    margin-left: 500px;
+    color: #F4DFBA;
+}
+#feedbackpage .form-row3{
+    text-align: center;
+    color: #F4DFBA;
+}
+#feedbackpage label{
+    vertical-align: top;
+    color: #F4DFBA;
+}
+#feedbackpage .form-row4{
+    margin-left: 300px;
+}
+#feedbackpage .form-submit{
+    text-align: center;
+}
+#feedbackpage .footerMaster{
+    margin-bottom: -10px;
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 105%;
+    padding-top: 250px;
+    /*padding-bottom: -25px;*/
+    display: grid;
+    background-color:#876445;
+}

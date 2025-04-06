@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Feedback: Virtue Coffee</title>
+        <!-- Link to CSS File -->
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body id="feedbackpage">
+        <img src="headerFooterImages/navBarLogo2.png" class="logo_navbar" alt="Virtue Coffee Logo"> <!-- Logo in the nav bar-->
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link to Homepage (set as default of the website)-->
+                <li><a href="about.html">About Us</a></li> <!-- Link to About Us page -->
+                <li><a href="products.html">Our Products</a></li> <!-- Link to Our Products page -->
+                <li><a href="bakery.html">Bakery</a></li> <!-- Link to Bakery page-->
+                <li><a href="gallery.html">Gallery</a></li> <!-- Link to Gallery page-->
+                <li><a href="feedback.html">Feedback</a></li> <!-- Link to Feedback page-->
+            </ul>
+        </nav>
+        <h1>Feedback & Suggestions</h1>
+        <h2>We value your feedback and opinions as customers, and we strongly encourage
+            you to share them with us so that we can improve our services.</h2>
+        <div class="form_container">
+            <div class="form_header">
+                <h3>Please fill out the following form and we will get back to you soon!</h3>
+            </div>
+            <form action="mailto:virtuecoffee204&#64gmail&#46com">
+                <div class="form-row1">
+                    <label for="first-name">First Name: </label>
+                    <input id="first-name" firstname="first-name" type="text"/>
+                    <label for="last-name">Last Name: </label>
+                    <input id="last-name" firstname="last-name" type="text"/>
+                </div>
+                <div class="form-row2">
+                    <label for="email">Email Address: </label>
+                    <input id="email" firstname="email" type="email"/>
+                </div>
+                <div class="form-row3">
+                    <p>Please select your reason for filling out this form:</p>
+                    <input type="radio" id="feedback" name="reason" value="feedback">
+                    <label for="feedback">To provide feedback on our products/services</label><br>
+                    <input type="radio" id="suggestion" name="reason" value="suggestion">
+                    <label for="female">To provide a suggestion for on how we can improve our products/services</label><br>
+                    <input type="radio" id="other" name="reason" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+                <br>
+                <div class="form-row4">
+                    <label for="multilineInput">What is you feedback/suggestion, let us know here:</label>
+                    <textarea id="mulitlineInput" id="multilineInput" name="box" cols="50" rows="15" placeholder="Enter here"></textarea>
+                </div>
+                <br>
+                <div class="form-submit">
+                    <input type="submit" value="Submit Form"><br><br>
+                </div>
+            </form>
+        </div>
+        </div>
+        <div class="footerMaster">
+            <ul class="footerSocials">
+                <li><a href="https://www.instagram.com/virtue.coffee/"><img src="headerFooterImages/instaIcon.png" class="icons" alt="Instagram Logo"></a></li>
+                <li><a href="https://twitter.com/CoffeeVirtue"><img src="headerFooterImages/twitterIcon.png" class="icons" alt="Twitter Logo"></a></li>
+            </ul>
+            <br>
+            <br>
+            <p class="footerText"><a href="mailto:virtuecoffee204&#64gmail&#46com">Contact Us</a></p>
+        </div>
+    </body>
+</html>
